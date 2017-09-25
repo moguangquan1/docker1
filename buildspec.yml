@@ -4,6 +4,3 @@ phases:
   install:
     commands:
   - python setup.py -q install
-
-script: nosetests
-
