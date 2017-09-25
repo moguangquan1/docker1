@@ -3,4 +3,4 @@ version: 1.0
 phases:
   build:
     commands:
-  - python setup.py -q install
+  - echo python setup.py -q install
