@@ -6,8 +6,8 @@ env:
 phases:
   install:
     commands:
-      - bundle install
+      - python setup.py -q install
   build:
     commands:
       - echo "******** Building Jekyll site ********"
-      - jekyll build
+      
