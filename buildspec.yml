@@ -1,6 +1,10 @@
 version: 1.0
 
+env:
+  variables:
+    key: "value"
+
 phases:
   build:
-    commands: echo 123
-  - echo python setup.py -q install
+    commands: 
+   - python setup.py -q install
