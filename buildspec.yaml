@@ -1,0 +1,14 @@
+version: 0.2
+env:
+  variables:
+    key: "value"
+
+phases:
+  install:
+    commands:
+      - bundle install
+  build:
+    commands:
+      - echo "******** Building Jekyll site ********"
+      - jekyll build
+      
