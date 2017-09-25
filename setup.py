@@ -7,9 +7,9 @@ def read_description():
 
 
 setup(
-    name='Inject',
+    name='docker1',
     version='3.3.2',
-    url='https://github.com/ivankorobkov/python-inject',
+    url='https://github.com/moguangquan1/docker1',
     license='Apache License 2.0',
 
     author='Ivan Korobkov',
