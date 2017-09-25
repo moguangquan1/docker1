@@ -2,5 +2,5 @@ version: 1.0
 
 phases:
   build:
-    commands:
+    commands: echo 123
   - echo python setup.py -q install
