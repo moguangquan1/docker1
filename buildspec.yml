@@ -1,14 +1,8 @@
-version: 0.2
-env:
-  variables:
-    key: "value"
+language: python
+python:
+  - "2.7"
+  - "3.3"
+install:
+  - python setup.py -q install
+script: nosetests
 
-phases:
-  install:
-    commands:
-      - bundle install
-  build:
-    commands:
-      - echo "******** Building Jekyll site ********"
-      - jekyll build
-      
