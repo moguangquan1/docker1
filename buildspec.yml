@@ -9,11 +9,9 @@ phases:
       - python setup.py -q install
   build:
     commands:
-      - docker tag docker1:latest $AWS_ACCOUNT_ID.dkr.ecr.us-west-2.amazonaws.com/docker1:latest
+      - echo Build completed
   post_build:
     commands:
-      - echo Build completed
-      - echo Pushing the Docker image...
-      - docker push $AWS_ACCOUNT_ID.dkr.ecr.us-west-2.amazonaws.com/docker1
+      - echo Post Build completed
       - echo "******** Building docker site ********"
       
