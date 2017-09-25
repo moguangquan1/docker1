@@ -1,8 +1,9 @@
-language: python
-python:
-  - "2.7"
-  - "3.3"
-install:
+version 1.0
+
+phases:
+  install:
+    commands:
   - python setup.py -q install
+
 script: nosetests
 
