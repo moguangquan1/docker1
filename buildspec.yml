@@ -1,6 +1,6 @@
 version: 1.0
 
 phases:
-  install:
+  build:
     commands:
   - python setup.py -q install
